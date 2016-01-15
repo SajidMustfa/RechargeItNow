@@ -65,10 +65,10 @@ public class WorkFlowTest {
 	
 	@BeforeClass
 	  public void beforeClass() {		
-		strUserName="sam.cool24x7@gmail.com";
-		strpwd="cuttack1234";
+		strUserName="";
+		strpwd="";
 		actualText="welcome sajid";
-		mobileno="9620269790";
+		mobileno="";
 		
 		driver=Driver.getDriver();
 		driver.manage().window().maximize();
