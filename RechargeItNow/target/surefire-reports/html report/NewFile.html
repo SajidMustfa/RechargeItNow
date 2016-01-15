@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Jenkins Report</title>
+
+
+<style>
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+
+#section {
+    width:800px;
+    float:center;
+    padding:10px;
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    table-layout:  
+}
+th, td {
+    padding: 5px;
+    text-align: left;    
+}
+th{
+	background-color:Blue;
+	font:red;
+	}
+</style>
+</head>
+	<body style="background-color:#F0E68C">	
+		<div id="header">
+			<h2><font color="red">Jenkins Report:</font></h2>
+		</div>
+		
+		<div id="nav">
+			<br>
+			<br></div>
+		
+		<div id="section">
+		<table style="width:100%" >
+		<tr >
+			<th width="2">Number</th>
+			<th>Job Name</th>
+			<th>Status</th>
+			<th width="8">Time Taken</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td><a href="http://localhost:8080/job/Selenium/">Selenium</a></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td><a href="file:///C:/Users/mustfa/workspace/RechargeItNow/target/surefire-reports/html%20report/WorkFlowTest.html">Recharge It Now</a></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		</table>
+		</div>
+		
+		<script>
+var x = document.getElementById("demo");
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else {
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+function showPosition(position) {
+    x.innerHTML = "Latitude: " + position.coords.latitude +
+    "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+	</body>
+</html>
