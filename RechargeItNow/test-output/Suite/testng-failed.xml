@@ -6,7 +6,7 @@
       <class name="org.pack.rechargeitnowTest.WorkFlowTest">
         <methods>
           <include name="loginToApp"/>
-          <include name="logOut"/>
+          <include name="afterMethod"/>
           <include name="mobileRechargeTest"/>
           <include name="beforeClass"/>
         </methods>

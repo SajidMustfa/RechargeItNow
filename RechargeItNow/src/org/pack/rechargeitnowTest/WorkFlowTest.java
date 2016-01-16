@@ -65,10 +65,10 @@ public class WorkFlowTest {
 	
 	@BeforeClass
 	  public void beforeClass() {		
-		strUserName="";
-		strpwd="";
+		strUserName="sam.cool24x7@gmail.com";
+		strpwd="alphabeta";
 		actualText="welcome sajid";
-		mobileno="";
+		mobileno="9620269790";
 		
 		driver=Driver.getDriver();
 		driver.manage().window().maximize();
@@ -137,7 +137,7 @@ public class WorkFlowTest {
 		 //screenshot.getscreenShotMethod(Driver.driver,nameScreenshot);
 		 
 		 Thread.sleep(3000);
-		 PopUpHandling.getPopUpHandles();
+		// PopUpHandling.getPopUpHandles();
 		 
 		 exp.wait(Driver.driver,"//img[@src='pix/proceed.gif']");
 		 topupplanpage.getproceedBtn().click();					 	
